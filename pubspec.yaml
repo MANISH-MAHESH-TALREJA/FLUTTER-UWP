@@ -1,0 +1,38 @@
+name: games
+description: FLUTTER GAMES FOR UNIVERSAL WINDOWS PLATFORM
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^5.0.0
+  flare_flutter: ^3.0.0
+  rflutter_alert: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bugs/
+    - assets/images/pacman/
+    - assets/images/tic_tac_toe/
+    - assets/images/mine_sweeper/
+    - assets/images/dice/
+    - assets/images/snake/
+    - assets/images/memory_game/
+
+  fonts:
+    - family: Tahoma
+      fonts:
+        - asset: assets/fonts/Tahoma.ttf
